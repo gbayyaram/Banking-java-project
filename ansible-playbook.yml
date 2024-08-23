@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name : Deploy Docker Container
-    command : docker run -itd -p 8088:8081 bayyaram/final-project:1.3
+    command : docker run -itd -p 9100:8081 bayyaram/final-project:1.3
